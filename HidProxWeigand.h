@@ -15,7 +15,7 @@
 
 #define MAX_READ_BITS 100             // Max number of read bits.
 #define WEIGAND_WAIT_TIME 3000        // Time to wait for another weigand pulse.
-#define CARD_FORMAT_CORPORATE_1000 35 // HID Corporate 100 card format (35bit).
+#define CARD_FORMAT_37 37             // 37 bit).
 #define CARD_FORMAT_WEIGAND_26    26  // Standard 26bit Weigand format.
 #if defined(__AVR_ATmega1280__) || defined(__AVR_ATmega2560__)
     // Mega 1280 and 2560 has 6 interrupts, thus can support 3 readers.
