@@ -91,8 +91,8 @@ void HidProxWeigandClass::loop() {
             uint8_t facStopBit = 0;
             uint8_t cardStartBit = 0;
             uint8_t cardStopBit = 0;
-            if (this->_currentReader->bitCount == CARD_FORMAT_CORPORATE_1000) {
-                // 35bit HID Corporate 1000 format.
+            if (this->_currentReader->bitCount == CARD_FORMAT_37) {
+                // 37bit HID format.
                 // Facility code is bits 2 to 14.
                 facStartBit = 2;
                 facStopBit = 14;
